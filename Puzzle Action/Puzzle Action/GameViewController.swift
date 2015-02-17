@@ -29,7 +29,7 @@ class GameViewController: UIViewController {
 			self.peopleCountScene = PeopleCountScene()
 		}
 		
-		self.peopleCountScene.scaleMode = .AspectFill
+		//self.peopleCountScene.scaleMode = .AspectFill
 		skView.presentScene(self.peopleCountScene)
     }
 
