@@ -26,7 +26,7 @@ class GameViewController: UIViewController {
 		
 		/* Set the scale mode to scale to fit the window */
 		dispatch_once(&peopleCountToken) {
-			self.peopleCountScene = PeopleCountScene()
+			self.peopleCountScene = PeopleCountScene(gameState: GameState(), difficulty: Difficulty())
 		}
 		
 		//self.peopleCountScene.scaleMode = .AspectFill
